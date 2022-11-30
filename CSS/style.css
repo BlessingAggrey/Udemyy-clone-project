@@ -310,7 +310,6 @@ color: black;
     flex-direction: row;
     margin-top: 30px;
     column-gap: 25px;
-    justify-content: 
 }
 
 .TC-Images2 {
@@ -440,12 +439,13 @@ font-weight: 650;
 
 .links {
     display: flex;
+    box-sizing: border-box;
+    border-style:none;
 }
 
 .end {
     box-sizing: border-box;
-    border-color: aqua;
-    border-style: solid;
+    border-style: none;
     margin-top: 90px;
     padding-top: 20px;
     padding-left: 15px;
@@ -465,7 +465,6 @@ font-weight: 650;
     border-color: white;
     height: 45px;
     margin-left: 750px;
-    
 }
 
 .end-globe i {
@@ -484,6 +483,11 @@ color: white;
     font-size: 13px;
 }
 
+.lists a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
 .sign-out p {
     color: white;
     font-size: 11px;
@@ -498,10 +502,8 @@ color: white;
 .sign-out {
     display: flex;
     justify-content: space-between;
-    padding-top:;
     box-sizing: border-box;
-    border-style: solid;
-    border-color: aqua;
+    border-style: none;
     margin-top: 50px;
     margin-bottom: 0px;
 }
