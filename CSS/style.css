@@ -329,6 +329,17 @@ color: black;
     flex-direction: column;
 }
 
+.TC-Images a {
+    text-decoration: none;
+    color: black;
+    font-weight: 650;
+    font-size: 15px;
+}
+
+.TC-Images a:hover {
+    color: black;
+}
+
 .featured {
     display: flex;
     flex-direction: row;
