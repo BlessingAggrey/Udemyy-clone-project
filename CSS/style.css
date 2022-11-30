@@ -1,3 +1,10 @@
+html, body { 
+    overflow-y: auto; 
+    overflow-x: hidden;
+    max-height: 100%;
+    width: 100%;
+}
+
 .dropdown-btn {
     background-color: white;
     color: black;
@@ -52,7 +59,6 @@ color: blue;
     position: absolute;
     padding-left: 20px;
     padding-top: 14px;
-    
 }
 
 .search-form-control {
@@ -87,6 +93,10 @@ color: blue;
     margin-left: 15px;
 }
 
+.head-btn1 a:hover {
+    color: black;
+}
+
 .head-btn1 a {
     text-decoration: none;
     color: black;
@@ -99,6 +109,10 @@ color: blue;
     padding: 6px 10px;
     border-width: 1px;
     margin-left: 4px;
+}
+
+.head-btn2 a:hover {
+    color: white;
 }
 
 .head-btn2 a {
@@ -123,7 +137,233 @@ color: blue;
 }
 
 .navbar {
-    border: 4px;
+    border: 1px;
     border-color: white;
     border-style: solid;
+}
+
+.main-image img{
+    padding-left:85px;
+    padding-right: 70px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.TB-title {
+    font-weight: 650;
+padding-top: 20px;
+}
+
+.TB-body {
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 0px;
+    padding-right: 35px;
+}
+
+.section2-contents {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    top: 65px;
+    left: 140px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 30px;
+    height: 140px;
+    width: 430px;
+}
+
+.java-text {
+    margin-top: 40px;
+    padding-left: 110px;
+    margin-bottom: 0px;
+}
+
+.java-text p {
+    font-weight: 500;
+}
+
+.JT-h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.java-flex {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.java-flex a {
+    text-decoration: none;
+}
+
+.J-flex1 {
+padding-left: 113px;
+color: black;
+}
+
+.J-flex2 {
+    padding-left: 18px;
+    color: grey;
+}
+
+.java-flex a:hover{
+    color: black;
+}
+
+.card {
+    margin-left: 110px;
+    margin-right: 90px;
+    padding: 20px 15px;
+}
+
+.card-body {
+    padding: 100px 150px;
+    height: 400px;
+}
+
+.card-title {
+    font-weight: 780;
+}
+
+.card-text {
+    font-size: 14px;
+    padding-right: 430px;
+    font-weight: 500;
+}
+
+.java-icons i {
+    font-family: FontAwesome;
+    position: absolute;
+}
+
+.java-icons {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-width: 2px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    background-color: rgba(128, 128, 128, 0.088);
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.J-icons1 p{
+    padding-left: 160px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.J-icons1 i {
+    padding-left: 110px;
+    font-size: 35px;
+}
+
+.J-icons2 p{
+    padding-left: 210px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.J-icons2 i {
+    padding-left: 160px;
+    font-size: 30px;
+}
+
+.J-icons3 p{
+    padding-left: 210px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.J-icons3 i {
+    padding-left: 160px;
+    font-size: 30px;
+}
+
+.students {
+    padding-left: 110px;
+}
+
+.students h4 {
+    font-weight: 700;
+}
+
+.Top-categories {
+    padding-left: 110px;
+}
+
+.Top-categories h5 {
+    font-weight: 700;
+}
+
+.TC-Images1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    column-gap: 25px;
+}
+
+.TC-Images2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    column-gap: 25px;
+}
+
+.TC-Images1-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.TC-Images2-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured {
+    display: flex;
+    flex-direction: row;
+}
+
+.section5 h5 {
+    font-weight: 750;
+    padding-left: 110px;
+}
+
+.ul-lists li {
+    font-weight: 750;
+    font-size: 17px;
+}
+
+.ul-lists a {
+    font-size: 15px;
+    color: rgba(58, 29, 219, 0.942)
+}
+
+.ul-lists p {
+    font-size: 13px;
+    font-weight: 400;
+    color: grey;
+}
+
+.Trusted-text {
+    text-align: center;
+}
+
+.Trusted-text h4 {
+    padding-top: 100px;
+    font-weight: 650;
+}
+
+.Trusted-text p {
+    font-weight: 500;
 }
