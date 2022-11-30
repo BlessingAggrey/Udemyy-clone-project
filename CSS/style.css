@@ -345,9 +345,35 @@ color: black;
     flex-direction: row;
 }
 
-.section5 h5 {
+.section5 h4 {
     font-weight: 750;
     padding-left: 110px;
+    padding-bottom: 20px;
+}
+
+.section5 {
+    box-sizing: border-box;
+    border-style: none;
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 55px;
+    background-color: rgba(128, 128, 128, 0.088);
+}
+
+.ul-lists4 {
+    padding-left: 165px;
+}
+
+.ul-lists3 {
+    padding-left: 170px;
+}
+
+.ul-lists2 {
+    padding-left: 163px;
+}
+
+.ul-lists1 {
+    padding-left: 78px;
 }
 
 .ul-lists li {
