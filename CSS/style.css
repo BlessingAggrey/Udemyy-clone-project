@@ -310,6 +310,7 @@ color: black;
     flex-direction: row;
     margin-top: 30px;
     column-gap: 25px;
+    justify-content: 
 }
 
 .TC-Images2 {
@@ -366,4 +367,141 @@ color: black;
 
 .Trusted-text p {
     font-weight: 500;
+}
+
+.T-img {
+    padding-left: 120px;
+}
+
+.upskill-txt img {
+    width: 175px;
+}
+
+.upskill-img img {
+    height: 350px;
+}
+
+.upskill {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.upskill-txt h2{
+    font-weight: 650;
+}
+
+.upskill-ul {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0px;
+    padding-left: 22px;
+}
+
+.upskill-img {
+    margin-left: 20px;
+    margin-top: 110px;
+}
+
+.upskill-txt {
+    margin-top: 110px;
+    margin-right: 110px;
+}
+
+.upskill-btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.instructor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.instructor-img img {
+    height: 350px;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+
+.instructor-txt {
+    margin-top: 150px;
+    margin-left: 10px;
+}
+
+.instructor-txt h2 {
+font-weight: 650;
+}
+
+.instructor-txt p {
+    font-size: 17px;
+}
+
+.links {
+    display: flex;
+}
+
+.end {
+    box-sizing: border-box;
+    border-color: aqua;
+    border-style: solid;
+    margin-top: 90px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.893);
+}
+
+.links button  {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    display: flex;
+    padding-right: 50px;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.395);
+    border-style: solid;
+    box-sizing: border-box;
+    border-color: white;
+    height: 45px;
+    margin-left: 750px;
+    
+}
+
+.end-globe i {
+padding-right: 10px;
+padding-top: 5px;
+color: white;
+}
+
+.end-globe p {
+    color: white;
+}
+
+.lists a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.sign-out p {
+    color: white;
+    font-size: 11px;
+    padding-right: 40px;
+}
+
+.sign-out img {
+    height: 30px;
+    padding-left: 30px;
+}
+
+.sign-out {
+    display: flex;
+    justify-content: space-between;
+    padding-top:;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: aqua;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
