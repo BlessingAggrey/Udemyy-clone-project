@@ -35,6 +35,58 @@ html, body {
     display: block;
 }
 
+.DC-1 i {
+    padding-left: 130px;
+}
+
+.DC-2 i {
+    padding-left: 160px;
+}
+
+.DC-3 i {
+    padding-left: 75px;
+}
+
+.DC-4 i {
+    padding-left: 125px;
+}
+
+.DC-5 i {
+    padding-left: 95px;
+}
+
+.DC-6 i {
+    padding-left: 70px;
+}
+
+.DC-7 i {
+    padding-left: 165px;
+}
+
+.DC-8 i {
+    padding-left: 145px; 
+}
+
+.DC-9 i {
+    padding-left: 157px;  
+}
+
+.DC-10 i {
+    padding-left: 70px;
+}
+
+.DC-11 i {
+    padding-left: 105px;
+}
+
+.DC-12 i {
+    padding-left: 168px;
+}
+
+.DC-13 i {
+    padding-left: 65px;
+}
+
 .dropdown-content a:hover {
 color: blue;
 }
