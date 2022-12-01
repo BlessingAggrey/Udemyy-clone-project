@@ -392,6 +392,15 @@ color: black;
     color: black;
 }
 
+.TCI-main img {
+    width: 100%;
+    transition: 0.1s all ease-in-out;
+}
+
+.TCI-main:hover img {
+    transform: scale(1.01);
+}
+
 .featured {
     display: flex;
     flex-direction: row;
